@@ -17,7 +17,7 @@ on top of it.
 
 ## Example Usage:
 
-Let's look at some toy code of two functions which load some data, but require
+Let's look at some toy code of a function which loads some data, but requires
 a long time.
 
 ```python
@@ -26,10 +26,6 @@ import time
 def load_1():
     time.sleep(10)
     return [1, 2, 3, 4, 5]
-
-def load_2():
-    time.sleep(5)
-    return ['a', 'b', 'c', 'd', 'e']
 ```
 
 Lets say we want to do some experimental data analysis.
@@ -42,10 +38,6 @@ import time
 def load_1():
     time.sleep(10)
     return [1, 2, 3, 4, 5]
-
-def load_2():
-    time.sleep(5)
-    return ['a', 'b', 'c', 'd', 'e']
 
 def mean(data):
     reutrn sum(data) / len(data)
@@ -65,10 +57,6 @@ import time
 def load_1():
     time.sleep(10)
     return [1, 2, 3, 4, 5]
-
-def load_2():
-    time.sleep(5)
-    return ['a', 'b', 'c', 'd', 'e']
 
 def mean(data):
     time.sleep(2)
