@@ -40,6 +40,7 @@ def load_1():
     return [1, 2, 3, 4, 5]
 
 def mean(data):
+    time.sleep(2)
     reutrn sum(data) / len(data)
 
 data_1 = load_1()
