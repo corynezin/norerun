@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-# training data contains features and targets
 def load_train_data():
     training_data = pd.read_csv("numerai_datasets/numerai_training_data.csv")
     training_data.set_index("id")
