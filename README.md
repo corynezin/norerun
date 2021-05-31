@@ -84,6 +84,11 @@ you may lose track of what code has been rerun.
 
 Here is what this development would look like using Norerun:
 
+![](data/example.gif)
+
+You can check out a real file developed while using Norerun in
+`real_example.py`
+
 ## Why Not Just Use Notebooks?
 
 Norerun is intended to avoid some bad features of notebooks which:
