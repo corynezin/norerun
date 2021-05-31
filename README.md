@@ -90,6 +90,7 @@ Norerun is intended to avoid some bad features of notebooks which:
 * Enforce that you work in a certain environment
 * Have state dependent on the order that code was run
 * Encourage bad habits and discourage good habits
+
 But to obtain some nice features of notebooks which:
 * allow for interactive and iterative development
 * allow for caching of results which take a while to compute
